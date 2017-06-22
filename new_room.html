@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+<script src="reservation.js"></script>
+<link rel="stylesheet" type="text/css" href="reservation.css">
+<link type="text/css" href="css/ui-lightness/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+<script src="js/jquery-1.8.2.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+<script src="js/i18n/jquery-ui-i18n.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</head>
+
+<body bgcolor="#A2A2D0">
+
+<ul class="navigationBar">
+  <li><a id="home"  href="admin_home.html"> Home </a></li>
+  <li><a id="newRoom" class="active" href="#new">New room</a></li>
+  <p><a id="logout" href="reservation.html">Log out</a></p>
+</ul>
+
+<label for="newRoomCapacity"> Capacity: </label>
+<input type="text" id="newRoomCapacity">
+<label for="newRoomFloor"> Floor: </label>
+<input type="text" id="newRoomFloor">
+<label for="newRoomName"> Name: </label>
+<input type="text" id="newRoomName">
+<button id="addRoom"> Add room </button>
+</body>
+</html>
